@@ -868,8 +868,9 @@ header {
   }
   .close-modal {
     font-size: 4rem;
-    right: 1.3rem;
-    top: 0.5rem;
+    /* right: 1.3rem; */
+    right: 15px;
+    top: 2.5px;
   }
   .footer {
     padding: 1rem;
