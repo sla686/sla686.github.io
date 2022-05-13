@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8853a005.css",
+    "main.css": "/static/css/main.ac728ec5.css",
     "main.js": "/static/js/main.262d16ae.js",
     "static/media/PigDiceGame(screen).png": "/static/media/PigDiceGame(screen).27fc2b0d3beed397a226.png",
     "static/media/JokeAPI(code).png": "/static/media/JokeAPI(code).a90a3d6409422c72d4ae.png",
@@ -14,11 +14,11 @@
     "static/media/DriverAssistant.png": "/static/media/DriverAssistant.cfbc508ab97a2fba04cf.png",
     "static/media/TicTacToe(screen).png": "/static/media/TicTacToe(screen).731807c29e5f11db484d.png",
     "index.html": "/index.html",
-    "main.8853a005.css.map": "/static/css/main.8853a005.css.map",
+    "main.ac728ec5.css.map": "/static/css/main.ac728ec5.css.map",
     "main.262d16ae.js.map": "/static/js/main.262d16ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.8853a005.css",
+    "static/css/main.ac728ec5.css",
     "static/js/main.262d16ae.js"
   ]
 }
