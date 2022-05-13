@@ -867,7 +867,9 @@ header {
     padding: 0.25rem;
   }
   .close-modal {
-    font-size: 4rem;
+    font-size: 64px;
+    padding: 1px 6px;
+    margin: 0;
     /* right: 1.3rem; */
     right: 15px;
     top: 2.5px;
