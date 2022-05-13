@@ -277,7 +277,7 @@ const Projects = () => {
       {showModal && numberModal === 5 && (
         <ModalNoLink
           title="Driver assistant (IoT project)!"
-          about="During this IoT project as a part of my university curriculum, I and my classmate have create a basic system which could assist drivers while driving. This system combines different sensors, RaspberryPi and MQTT server. The code was written in Python language. When our sensors detect something, then they would send the data to the RaspberryPi, where the RaspberryPi would send the data further to our MQTT server which has a friendly UI where we can observe our data. Sorry for the low quality screenshots!"
+          about="During this IoT project as a part of my university curriculum, I and my classmate have created a basic system which could assist drivers while driving. This system combines different sensors, Raspberry Pi and MQTT server. The code was written in Python language. When our sensors detect something, then they would send the data to the Raspberry Pi, where the Raspberry Pi would send the data further to our MQTT server which has a friendly UI where we can observe our data. Sorry for the low quality screenshots!"
           picture={Project5Code}
           pictureAlt="Project's code (Python) screenshot"
           picture2={Project5Web}
