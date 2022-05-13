@@ -54,8 +54,8 @@ ul li {
   height: -moz-max-content;
   height: max-content;
   width: 100%;
-  /* padding: 0 372px; */
-  padding: 0 8rem;
+  padding: 0 372px;
+  /* padding: 0 8rem; */
   margin: auto;
 }
 
@@ -199,34 +199,6 @@ header {
   grid-template-rows: 1fr 1fr;
   gap: 0 34px;
   /* // margin: 0 325px; */
-}
-
-.about > *:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-row: 1;
-  grid-column: 1;
-}
-
-.about > *:nth-child(2) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-row: 1;
-  grid-column: 3;
-}
-
-.about > *:nth-child(3) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-row: 3;
-  grid-column: 1;
-}
-
-.about > *:nth-child(4) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 3;
-  grid-row: 3;
-  grid-column: 3;
 }
 
 .about__header {
@@ -693,9 +665,15 @@ header {
 
 /* RESPONSIVE DESIGN! */
 
+@media screen and (max-width: 1680px) {
+  .section {
+    padding: 0 13rem;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .section {
-    padding: 0 2.5rem;
+    padding: 0 5rem;
   }
   .about__header,
   .about__skills,
