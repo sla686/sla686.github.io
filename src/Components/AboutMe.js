@@ -55,9 +55,10 @@ const AboutMe = () => {
           <h5 className="about__header">Get to know me!</h5>
           <p>
             Hello! It's Viacheslav Semushin and I'm an upcoming Front-End Web
-            Developer located in Finland. I am currently a final year student at
+            Developer located in Finland. I'm currently a final year student at
             Xamk (university of applied sciences) and I've been studying
-            front-end technologies for about a year.
+            front-end technologies for about a year. Now I am aiming to improve
+            my existing skills as well as gaining new ones!
           </p>
           <p>
             I have a passion to resolve problems and learn new things. I think

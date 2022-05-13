@@ -197,7 +197,7 @@ header {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr 0 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 0 34px;
+  gap: 50px 34px;
   /* // margin: 0 325px; */
 }
 
