@@ -2,16 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+console.log(
+  '© Created by Viacheslav Semushin. Thank you for visiting my portfolio! It was a really long and hard process to create this portfolio, starting from the designing part and then the implementation. As a junior front-end developer I have used everything I know so far, so I hope you will enjoy this portfolio! Sorry if you would encounter any mistakes - please feel free to report any problems, thanks!',
+);
