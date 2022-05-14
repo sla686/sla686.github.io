@@ -17,7 +17,7 @@ import Project6Screen from '../Assets/Images/DockerTravis(screen).png';
 
 const Item = ({ text, backgroundImage, onPress }) => {
   const itemReveal = (e) => {
-    if (!window.matchMedia('(min-width: 900px)').matches) return;
+    if (!window.matchMedia('(min-width: 768px)').matches) return;
     if (e.target.className === 'window') {
       e.target.style.opacity = 1;
       e.target.nextSibling.classList.remove('animation__out');
@@ -41,7 +41,7 @@ const Item = ({ text, backgroundImage, onPress }) => {
   };
 
   const itemHidden = (e) => {
-    if (!window.matchMedia('(min-width: 900px)').matches) return;
+    if (!window.matchMedia('(min-width: 768px)').matches) return;
     if (e.target.className === 'window') {
       e.target.style.opacity = 0.5;
 
