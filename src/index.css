@@ -774,6 +774,9 @@ header {
 @media screen and (max-width: 768px) {
   .window {
     opacity: 1;
+  }
+  .item:nth-child(2),
+  .item:nth-child(6) {
     border: 0.1px solid rgb(128, 128, 128);
   }
   h1 {
