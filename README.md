@@ -6,7 +6,7 @@ Welcome to my portfolio! Please enjoy!
 
 ## Homepage
 
-[https://todolist-sla686.netlify.app/](https://todolist-sla686.netlify.app/)
+[https://sla686.github.io/](https://sla686.github.io/)
 
 ## Author
 
