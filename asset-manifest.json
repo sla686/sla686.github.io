@@ -1,24 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.14b55823.css",
-    "main.js": "/static/js/main.0f47a10a.js",
+    "main.css": "/static/css/main.d5d3415a.css",
+    "main.js": "/static/js/main.a97785c3.js",
     "static/media/PigDiceGame(screen).png": "/static/media/PigDiceGame(screen).27fc2b0d3beed397a226.png",
-    "static/media/JokeAPI(code).png": "/static/media/JokeAPI(code).a90a3d6409422c72d4ae.png",
-    "static/media/DriverAssistant(code).png": "/static/media/DriverAssistant(code).3acd28c756806a578513.png",
-    "static/media/DockerTravis(screen).png": "/static/media/DockerTravis(screen).7c66cc1bb09cd3e1cf56.png",
-    "static/media/JokeAPI.png": "/static/media/JokeAPI.ed10bde2ce00234b2269.png",
+    "static/media/OnlineShop(screen).png": "/static/media/OnlineShop(screen).690137b17d4df20211a1.png",
+    "static/media/MarketplaceShops(screen).png": "/static/media/MarketplaceShops(screen).b34cd0039115ace9ab2c.png",
+    "static/media/DigitalLibrary(screen).png": "/static/media/DigitalLibrary(screen).5b99cf3c73cb96e91347.png",
     "static/media/GuessMyNumber(screen).png": "/static/media/GuessMyNumber(screen).aff3eb166ea4387e66f1.png",
-    "static/media/JokeAPI(page).png": "/static/media/JokeAPI(page).142dd5d4dd7819acdf03.png",
-    "static/media/DriverAssistant(web).png": "/static/media/DriverAssistant(web).3f58dfcae7d957a44e47.png",
-    "static/media/DockerTravis.png": "/static/media/DockerTravis.813e4b950c0ebc0d1aea.png",
-    "static/media/DriverAssistant.png": "/static/media/DriverAssistant.cfbc508ab97a2fba04cf.png",
+    "static/media/DigitalLibrary.png": "/static/media/DigitalLibrary.c1fa82c8983f7d004426.png",
     "static/media/TicTacToe(screen).png": "/static/media/TicTacToe(screen).731807c29e5f11db484d.png",
+    "static/media/OnlineShop.png": "/static/media/OnlineShop.96c73cb49987ccdf1154.png",
     "index.html": "/index.html",
-    "main.14b55823.css.map": "/static/css/main.14b55823.css.map",
-    "main.0f47a10a.js.map": "/static/js/main.0f47a10a.js.map"
+    "main.d5d3415a.css.map": "/static/css/main.d5d3415a.css.map",
+    "main.a97785c3.js.map": "/static/js/main.a97785c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.14b55823.css",
-    "static/js/main.0f47a10a.js"
+    "static/css/main.d5d3415a.css",
+    "static/js/main.a97785c3.js"
   ]
 }
