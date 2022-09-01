@@ -239,7 +239,7 @@ const Projects = () => {
       {showModal && numberModal === 2 && (
         <Modal
           title="Online Shop"
-          about="This is one of my frontend projects written with TypeScript, Material-UI, React and Redux. I have used thrid-party API to fetch products and users. Thanks to this project, I have improved my skills in frontend development!"
+          about="This is one of my frontend projects written with TypeScript, Material-UI, React and Redux. I have used thrid-party API to fetch products and users. Users can sign in and add products to the cart. Thanks to this project, I have improved my skills in frontend development!"
           picture={Project2Screen}
           pictureAlt="Project's screenshot"
           web={'https://github.com/sla686/frontend-online-shop'}
@@ -251,7 +251,7 @@ const Projects = () => {
       {showModal && numberModal === 3 && (
         <Modal
           title="Digital Library API"
-          about="This is one of my frontend projects written with TypeScript, Material-UI, React and Redux. I have used thrid-party API to fetch products and users. Thanks to this project, I have improved my skills in frontend development!"
+          about="This is a group backend project written with TypeScript, Node.js and Express.js. API documentation is created with Swagger. We have created a digital library API which consists of different schemas such as users, books and authors. These schemas are connected to each other. Thanks to this project we have improved our skills and knowledge in backend technologies and development"
           picture={Project3Screen}
           pictureAlt="Project's screenshot"
           web={'https://github.com/sla686/backend-online-library'}
