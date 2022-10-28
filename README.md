@@ -15,7 +15,7 @@ Welcome to my portfolio! Please enjoy!
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run the following commands:
 
 ### `npm start`
 
