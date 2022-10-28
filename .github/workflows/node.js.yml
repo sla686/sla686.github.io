@@ -70,12 +70,14 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
+        file: Dockerfile.dev
         tags: sla686/react-portfolio:dev
         
     - name: Build and push (production)
       uses: docker/build-push-action@v3
       with:
         push: true
+        file: Dockerfile.prod
         tags: sla686/react-portfolio:latest
         
 
