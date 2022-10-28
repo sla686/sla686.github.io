@@ -54,11 +54,12 @@ const AboutMe = () => {
         <div className="know__me">
           <h5 className="about__header">Get to know me!</h5>
           <p>
-            Hello! It's Viacheslav Semushin and I'm a Full-Stack Developer
-            Trainee located in Finland. I'm currently on my final year at Xamk
-            (university of applied sciences) and I've been studying frontend and
-            backend technologies for about a year. Now I am aiming to improve my
-            existing skills as well as gaining new ones!
+            Hello! It's Viacheslav Semushin and I'm a Full-Stack Developer &
+            DevOps Trainee located in Finland. I'm currently on my final year at
+            Xamk (university of applied sciences) and I've been studying web
+            development technologies for about a year. Recently I have been
+            studying DevOps culture and associate technoplogies. And now I am
+            aiming to improve my existing skills as well as gaining new ones!
           </p>
           <p>
             I have a passion to resolve problems and learn new things. I think
@@ -73,21 +74,21 @@ const AboutMe = () => {
             My skills
           </h5>
           <ul className="skills">
-            <li>SCSS</li>
             <li>Material-UI</li>
             <li>TypeScript</li>
-            {/* <li>TypeScript</li> */}
             <li>React.js</li>
             <li>Redux</li>
             <li>MongoDB</li>
-            <li>PostreSQL</li>
+            <li>MySQL & PostreSQL</li>
             <li>Node.js</li>
             <li>Express.js</li>
             <li>Python</li>
-            <li>Django.py</li>
-            <li>GIT</li>
-            <li>GitHub</li>
-            <li>Figma</li>
+            <li>GIT & GitHub</li>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>Jenkins</li>
+            <li>Ansible</li>
+            <li>AWS</li>
           </ul>
           {/* <div className="features__icon">
               <svg>

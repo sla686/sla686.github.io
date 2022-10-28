@@ -191,7 +191,7 @@ const Projects = () => {
           }}
         />
         <Item
-          text={'Digital Shop API'}
+          text={'Digital Library API'}
           backgroundImage={Project3}
           onPress={() => {
             setNumberModal(3);

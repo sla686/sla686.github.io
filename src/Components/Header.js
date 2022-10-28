@@ -6,7 +6,7 @@ const Header = () => {
         <div className="white__animation__up"></div>
       </div>
       <div className="title__down">
-        <h4 className="title">Fullstack Developer Trainee</h4>
+        <h4 className="title">Fullstack Developer & DevOps Trainee</h4>
         <div className="white__animation__down"></div>
       </div>
     </header>

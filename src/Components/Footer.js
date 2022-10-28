@@ -6,10 +6,10 @@ const Footer = () => {
         <a
           className="footer__link"
           target="_blank"
-          href="mailto:sla686@gmail.com"
+          href="https://github.com/sla686"
           rel="noreferrer"
         >
-          {" "}
+          {' '}
           Viacheslav Semushin
         </a>
         . All rights are reserved.
