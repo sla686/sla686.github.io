@@ -27,18 +27,18 @@ jobs:
       run: |
         npm install
         npm run build
-
+        
+    - name: Build the Docker image using Dockerfile.dev
+      run: docker build /build --file ../Dockerfile.dev --tag sla686/react-portfolio:dev
+    
+    - name: Build the Docker image using Dockerfile.prod
+      run: docker build /build --file ../Dockerfile.prod --tag sla686/react-portfolio
+    
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: build
         branch: public
-        
-    - name: Build the Docker image using Dockerfile.dev
-      run: docker build build --file ../Dockerfile.dev --tag sla686/react-portfolio:dev
-    
-    - name: Build the Docker image using Dockerfile.prod
-      run: docker build build --file ../Dockerfile.prod --tag sla686/react-portfolio
         
   deploy:
     runs-on: ubuntu-latest
