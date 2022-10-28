@@ -15,7 +15,7 @@ Welcome to my portfolio! Please enjoy!
 - The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 ## Containerized version
-- [Dockerhub repository](https://hub.docker.com/repository/docker/sla686/react-portfolio)
+- [Dockerhub repository](https://hub.docker.com/r/sla686/react-portfolio)
 - Production build with nginx server included (80/tcp): `docker pull sla686/react-portfolio`
 
 ## Available Scripts
