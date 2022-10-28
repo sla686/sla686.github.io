@@ -34,6 +34,12 @@ jobs:
         folder: build
         branch: public
         
+    - name: Build the Docker image using Dockerfile.dev
+      run: docker build build --file ../Dockerfile.dev --tag sla686/react-portfolio:dev
+    
+    - name: Build the Docker image using Dockerfile.prod
+      run: docker build build --file ../Dockerfile.prod --tag sla686/react-portfolio
+        
   deploy:
     runs-on: ubuntu-latest
     name: Deployment to docker
@@ -44,14 +50,11 @@ jobs:
 #    - name: Login to DockerHub Registry
 #      run: echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
       
-    - name: Build the Docker image using Dockerfile.dev
-      run: docker build build --file ../Dockerfile.dev --tag sla686/react-portfolio:dev
+
       
 #    - name: Push the tagged Docker image (dev)
 #      run: docker push sla686/react-portfolio:dev
       
-    - name: Build the Docker image using Dockerfile.prod
-      run: docker build build --file ../Dockerfile.prod --tag sla686/react-portfolio
       
 #    - name: Push the tagged Docker image (latest)
 #      run: docker push sla686/react-portfolio
