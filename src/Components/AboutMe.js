@@ -79,7 +79,7 @@ const AboutMe = () => {
             <li>React.js</li>
             <li>Redux</li>
             <li>MongoDB</li>
-            <li>MySQL & PostreSQL</li>
+            <li>MySQL & PostgreSQL</li>
             <li>Node.js</li>
             <li>Express.js</li>
             <li>Python</li>
