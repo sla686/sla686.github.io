@@ -57,8 +57,8 @@ const AboutMe = () => {
             Hello! It's Viacheslav Semushin and I'm a Full-Stack Developer &
             DevOps Trainee located in Finland. I'm currently on my final year at
             Xamk (university of applied sciences) and I've been studying web
-            development technologies for about a year. Recently I have been
-            studying DevOps culture and associate technoplogies. And now I am
+            development technologies for about a year. In addition, I've been
+            studying DevOps culture and associate technologies. And now, I am
             aiming to improve my existing skills as well as gaining new ones!
           </p>
           <p>
