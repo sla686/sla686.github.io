@@ -33,7 +33,12 @@ jobs:
       with:
         folder: build
         branch: public
+        
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deployment to docker
     
+    steps:
     - name: Login to DockerHub Registry
       run: echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
       
