@@ -1,6 +1,7 @@
 # Portfolio of Viacheslav Semushin
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Node.js CI](https://github.com/sla686/sla686.github.io/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/sla686/sla686.github.io/actions/workflows/node.js.yml)
 
 Welcome to my portfolio! Please enjoy!
 
