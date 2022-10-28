@@ -28,11 +28,12 @@ jobs:
         npm install
         npm run build
         
+      
     - name: Build the Docker image using Dockerfile.dev
-      run: docker build /build --file ../Dockerfile.dev --tag sla686/react-portfolio:dev
+      run: docker build . --file Dockerfile.dev --tag sla686/react-portfolio:dev
     
     - name: Build the Docker image using Dockerfile.prod
-      run: docker build /build --file ../Dockerfile.prod --tag sla686/react-portfolio
+      run: docker build . --file Dockerfile.prod --tag sla686/react-portfolio
     
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
