@@ -40,13 +40,6 @@ jobs:
       with:
         folder: build
         branch: public
-        
-  deploy:
-    runs-on: ubuntu-latest
-    name: Deployment to docker
-    
-    steps:
-    - uses: actions/checkout@v3
     
 #    - name: Login to DockerHub Registry
 #      run: echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
@@ -58,8 +51,35 @@ jobs:
       
       
 #    - name: Push the tagged Docker image (latest)
-#      run: docker push sla686/react-portfolio
+#      run: docker push sla686/react-portfolio:latest
+
+  docker:
+    runs-on: ubuntu-latest
+    name: Deploy to Docker Hub
+    steps:
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
         
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+        
+      - name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          
+      - name: Build and push (development)
+        uses: docker/build-push-action@v3
+        with:
+          push: true
+          tags: sla686/react-portfolio:dev
+        
+      - name: Build and push (production)
+        uses: docker/build-push-action@v3
+        with:
+          push: true
+          tags: sla686/react-portfolio:latest
         
 
 
