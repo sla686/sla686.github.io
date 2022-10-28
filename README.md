@@ -14,6 +14,10 @@ Welcome to my portfolio! Please enjoy!
 - Created by [Viacheslav Semushin](https://github.com/sla686)
 - The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
+## Containerized version is available:
+- [Dockerhub repository](https://hub.docker.com/repository/docker/sla686/react-portfolio)
+- Production build with nginx server included (80/tcp): `docker pull sla686/react-portfolio`
+
 ## Available Scripts
 
 In the project directory, you can run the following commands:
