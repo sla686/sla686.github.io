@@ -54,16 +54,17 @@ const AboutMe = () => {
         <div className="know__me">
           <h5 className="about__header">Get to know me!</h5>
           <p>
-            Hello! It's Viacheslav Semushin and I'm a Full-Stack Developer &
-            DevOps Trainee located in Finland. I'm currently on my final year at
-            Xamk (university of applied sciences) and I've been studying web
-            development technologies for about a year. In addition, I've been
-            studying DevOps culture and associate technologies. And now, I am
-            aiming to improve my existing skills as well as gaining new ones!
+            Hello! It's Viacheslav Semushin and I'm a DevOps Engineer located in
+            Finland. I'm currently in my final year at Xamk (university of
+            applied sciences) and I've been studying DevOps culture and its
+            associate technologies for about a year. In addition, I've also been
+            studying Web Development in the past. Currently, I'm aiming to
+            improve my existing skills as well as gaining new ones in DevOps and
+            SRE!
           </p>
           <p>
             I have a passion to resolve problems and learn new things. I think
-            it is important to have an ability to adapt quickly in the modern
+            it is crucial to have an ability to adapt quickly in the modern
             world. It is also important to be responsible and be able to work in
             a team.
           </p>
@@ -74,21 +75,21 @@ const AboutMe = () => {
             My skills
           </h5>
           <ul className="skills">
-            <li>Material-UI</li>
-            <li>TypeScript</li>
-            <li>React.js</li>
-            <li>Redux</li>
-            <li>MongoDB</li>
-            <li>MySQL & PostgreSQL</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>Python</li>
-            <li>GIT & GitHub</li>
-            <li>Docker</li>
-            <li>Kubernetes</li>
-            <li>Jenkins</li>
             <li>Ansible</li>
             <li>AWS</li>
+            <li>Docker</li>
+            <li>Git & GitHub</li>
+            <li>GitLab CI/CD</li>
+            <li>Helm</li>
+            <li>Kubernetes</li>
+            <li>Linux</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>React.js</li>
+            <li>Terraform</li>
+            <li>TypeScript</li>
           </ul>
           {/* <div className="features__icon">
               <svg>
