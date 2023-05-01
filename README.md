@@ -7,7 +7,7 @@ Welcome to my portfolio! Please enjoy!
 
 ## Homepage
 
-[https://sla686.github.io/](https://sla686.github.io/)
+[https://viacheslav-semushin.com/](https://viacheslav-semushin.com/)
 
 ## Author
 
