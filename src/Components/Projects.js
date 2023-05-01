@@ -172,7 +172,7 @@ const Projects = () => {
 
   return (
     <section className="section">
-      <h2 className="section__header reveal">My projects</h2>
+      <h2 className="section__header reveal">My web projects</h2>
       <div className="slider reveal">
         <Item
           text={'Marketplace & Shops'}
