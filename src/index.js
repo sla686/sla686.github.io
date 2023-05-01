@@ -15,5 +15,5 @@ root.render(
 );
 
 console.log(
-  '© Created by Viacheslav Semushin. Thank you for visiting my portfolio! It was a really long and hard process to create this portfolio, starting from the designing part and then the implementation. As a Fullstack Developer Trainee I have used everything I know so far, so I hope you will enjoy this portfolio! Sorry if you would encounter any bugs - please feel free to report them at any time, thank you!',
+  '© Created by Viacheslav Semushin. Thank you for visiting my portfolio! It was a really long and hard process from design to implementation. As I was a Fullstack Developer Trainee I have used everything I know so far, so I hope you will enjoy this portfolio! Although now I am a DevOps Engineer, I am happy that web development skills can be applied here. Feel free to share your thoughts at any time, thank you!',
 );
